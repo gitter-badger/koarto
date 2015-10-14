@@ -1,0 +1,249 @@
+/*
+ * Koarto (c) 2015
+ *
+ * contact(at)koarto.com
+ */
+
+body {
+	background: url(../images/bg.png) #E9EDF0;
+}
+
+img {
+	-webkit-border-radius: 3px;
+      -msie-border-radius: 3px;
+       -moz-border-radius: 3px;
+         -o-border-radius: 3px;
+      	    border-radius: 3px;
+}
+
+a {
+	color: #008FD5;
+}
+
+ p {
+	font-size: 14px;
+}
+
+
+/* general class part */
+
+.content h1 {
+	margin     : 36px 0 27px;
+	font-size  : 40px;
+	font-weight: 300;
+	text-align : center;
+}
+
+.content h2 {
+	font-size: 22px;
+}
+
+.content h2, .content h3 {
+	font-weight: 300;
+}
+
+.content-byline {
+	color      : #999;
+	text-align : center;
+	line-height: 24px;
+	font-size  : 18px;
+	font-weight: 300;
+	margin     : -18px 0 27px;
+}
+
+.justify {
+	text-align: justify;
+}
+
+hr.soften {
+	height          : 1px;
+	margin          : 54px 0;
+	border          : 0;
+	background-color: rgba(0, 0, 0, .1);
+	-webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+	   -moz-box-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+		    box-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+
+/* header part */
+
+header {
+	margin: 30px 0px 10px 0px;
+}
+
+header a.logo, header a.logo:active {
+	background: url(../images/logo_hover.png) top;
+	display: block;
+	width: 101px;
+	height: 31px;
+	text-indent: -99999px;
+	-webkit-transition: all 0.3s ease-out;
+	   -moz-transition: all 0.3s ease-out;
+	    -ms-transition: all 0.3s ease-out;
+	     -o-transition: all 0.3s ease-out;
+	        transition: all 0.3s ease-out;
+}
+
+header a.logo:hover {
+	background: url(../images/logo.png);
+	background-position: 0 0;
+}
+
+
+nav {
+	text-align    : right;
+}
+
+nav a {
+	background    : #FFF;
+	color         : #6B7478;
+	display       : inline-block;
+	font-size     : 15px;
+	margin        : 0 0 0 4px;
+	padding       : 6px 9px;
+	-webkit-transition: all 0.2s ease-out;
+	   -moz-transition: all 0.2s ease-out;
+	    -ms-transition: all 0.2s ease-out;
+	     -o-transition: all 0.2s ease-out;
+	        transition: all 0.2s ease-out;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	    -ms-border-radius: 3px;
+	     -o-border-radius: 3px;
+	        border-radius: 3px;
+	-webkit-box-shadow: inset rgba(0,0,0,.2) 1px 1px 1px, rgba(255,255,255,1) 1px 1px 0px;
+	   -moz-box-shadow: inset rgba(0,0,0,.2) 1px 1px 1px, rgba(255,255,255,1) 1px 1px 0px;
+	    -ms-box-shadow: inset rgba(0,0,0,.2) 1px 1px 1px, rgba(255,255,255,1) 1px 1px 0px;
+	     -o-box-shadow: inset rgba(0,0,0,.2) 1px 1px 1px, rgba(255,255,255,1) 1px 1px 0px;
+	        box-shadow: inset rgba(0,0,0,.2) 1px 1px 1px, rgba(255,255,255,1) 1px 1px 0px;
+}
+
+nav a:hover, nav a.active {
+	background     : #008FD5;
+	color          : #FFF;
+	text-decoration: none;
+	background-color: #005CA2; /* Old browsers */
+	background-repeat: repeat-x; /* Repeat the gradient */
+	background-image: -moz-linear-gradient(top, #008FD5 0%, #005CA2 100%); /* FF3.6+ */
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#008FD5), color-stop(100%,#005CA2)); /* Chrome,Safari4+ */
+	background-image: -webkit-linear-gradient(top, #008FD5 0%,#005CA2 100%); /* Chrome 10+,Safari 5.1+ */
+	background-image: -ms-linear-gradient(top, #008FD5 0%,#005CA2 100%); /* IE10+ */
+	background-image: -o-linear-gradient(top, #008FD5 0%,#005CA2 100%); /* Opera 11.10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008FD5', endColorstr='#005CA2',GradientType=0 ); /* IE6-9 */
+	background-image: linear-gradient(top, #008FD5 0%,#005CA2 100%); /* W3C */
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  	z-index: 100;
+  	outline: none;
+}
+
+nav a.green:hover, nav a.green:active {
+	background     : #8BB350;
+	color          : #FFF;
+	text-decoration: none;
+	background-color: #599220; /* Old browsers */
+	background-repeat: repeat-x; /* Repeat the gradient */
+	background-image: -moz-linear-gradient(top, #8BB350 0%, #599220 100%); /* FF3.6+ */
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8BB350), color-stop(100%,#599220)); /* Chrome,Safari4+ */
+	background-image: -webkit-linear-gradient(top, #8BB350 0%,#599220 100%); /* Chrome 10+,Safari 5.1+ */
+	background-image: -ms-linear-gradient(top, #8BB350 0%,#599220 100%); /* IE10+ */
+	background-image: -o-linear-gradient(top, #8BB350 0%,#599220 100%); /* Opera 11.10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8BB350', endColorstr='#599220',GradientType=0 ); /* IE6-9 */
+	background-image: linear-gradient(top, #8BB350 0%,#599220 100%); /* W3C */
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  	z-index: 100;
+  	outline: none;
+}
+
+/* banner part */
+
+.banner {
+	padding: 0px 0px 0px 0px;
+	width: 940px;
+	height: 335px;
+	margin: 0 auto 0;
+	background: url(../images/banner.png) no-repeat top center;
+}
+
+/* about part */
+
+.shape {
+	background: #FFF;
+	padding: 10px 0 5px 0;
+	-webkit-border-radius: 3px;
+      -msie-border-radius: 3px;
+       -moz-border-radius: 3px;
+         -o-border-radius: 3px;
+      	    border-radius: 3px;
+  	-webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, .3);
+  	   -moz-box-shadow: 0px 0px 1px rgba(0, 0, 0, .3);
+  	        box-shadow: 0px 0px 1px rgba(0, 0, 0, .3);
+}
+
+.shape img {
+	margin: 0 0 0 10px;
+	-webkit-border-radius: 0px;
+      -msie-border-radius: 0px;
+       -moz-border-radius: 0px;
+         -o-border-radius: 0px;
+      	    border-radius: 0px;
+}
+
+/* services part */
+
+.services .banner {
+	width: 950px;
+	height: 170px;
+	background: url(../images/services.png) no-repeat top center;
+}
+
+/* contact part */
+
+.contact .row {
+	padding-top: 40px;
+}
+
+.contact .left-part, .contact .left-part h2 {
+	text-align: right;
+}
+
+.contact .center-part {
+	text-align:  center;
+	padding-top: 45px;
+	font-size:   28px;
+	color:       #777;
+}
+
+.contact .right-part {
+	text-align: left;
+}
+
+.contact .left-part h2 {
+	font-size:  21px;
+	padding-right: 20px;
+	margin: 36px 0 27px;
+	font-weight: 300;
+}
+
+.map {
+	background: url(../images/map.png) no-repeat top right;
+	width: 171px;
+	height: 130px;
+	margin: -8px -12px 0 0;
+}
+
+.address {
+	margin-right: 1px;
+}
+
+/* footer */
+
+.copyright {
+	color     : #666;
+	text-align: center;
+	padding   : 7px 0px;
+	margin-top: 20px;
+}
