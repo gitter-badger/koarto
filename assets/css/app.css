@@ -4,6 +4,8 @@
  * contact(at)koarto.com
  */
 
+@import "bootstrap.min.css";
+
 body {
 	background: url(../images/bg.png) #E9EDF0;
 }
